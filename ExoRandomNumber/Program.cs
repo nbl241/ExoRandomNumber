@@ -104,7 +104,7 @@ namespace ExoRandomNumber
             {
                 using (StreamWriter sw = File.CreateText(score))
                 {
-                    sw.WriteLine("Classement général {0}");
+                    sw.WriteLine("Classement général");
                     sw.WriteLine("**************************************");
                     sw.WriteLine();
                     sw.WriteLine("Class;Nom;Point");
